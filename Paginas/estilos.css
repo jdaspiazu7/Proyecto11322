@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+* { margin:0px;padding:0px;}
+			#header { margin-left:20px;font-family:Arial, Helvetica, sans-serif;}
+			ul, ol {list-style:none;}
+			.nav > li {float:left;}
+			.nav li a {background-color:#000000;color:#fff;text-decoration:none;padding:10px 12px;display:block;}
+			.nav li a:hover {background-color:#CCFF00; color:#000}
+			.nav li ul {display:none;position:absolute;min-width:140px;}
+			.nav li:hover > ul {display:block;}
+			.nav li ul li {position:relative;}
+			.nav li ul li ul {right:-140px;top:0px;}
+			.tabla { width:1280px; height:1050; margin:auto}
+			body{ background-image:url(Imagenes/fondo.jpg); background-size:cover}
+			h2 {text-align: center;font-size: 2rem;padding-top: 50px;}
+			.slider-frame {width: 1280px;height: 400px;margin:auto;overflow: hidden;}
+			.slider-frame ul {display: flex;padding: 0;width: 600%;animation: slide 20s infinite alternate ease-in-out;}
+			.slider-frame li {width: 100%;list-style: none;}
+			.slider-frame img {height: 400px; width: 1280px;}
+		@keyframes slide {
+			0% {margin-left: 0;}
+			20% {margin-left: 0;}
+			
+			25% {margin-left: -100%;}
+			45% {margin-left: -100%;}
+			
+			50% {margin-left: -200%;}
+			70% {margin-left: -200%;}
+			
+			75% {margin-left: -300%;}
+			100% {margin-left: -300%;}
+		}
+			.parrafo{ padding:20px; font-size:16px; font-family:Verdana, Geneva, sans-serif; text-align:justify; font-weight:bold; color:#FFF}
+			.titulo{ font-size:36px; text-align:center; font-family:Arial, Helvetica, sans-serif; text-decoration:underline; color:#FFF}
+			.pie{ font-family:"Courier New", Courier, monospace; text-align:center; font-size:14px; font-weight:bold; color:#300}
+
